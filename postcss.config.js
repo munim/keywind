@@ -4,4 +4,11 @@ module.exports = {
     cssnano: {},
     tailwindcss: {},
   },
+  theme: {
+    extend: {
+      colors: {
+        primary: "#009bcd"
+      }
+    }
+  }
 };
